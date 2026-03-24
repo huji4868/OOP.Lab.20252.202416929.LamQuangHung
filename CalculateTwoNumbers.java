@@ -11,12 +11,12 @@ public class CalculateTwoNumbers{
         double sum = num1 + num2;
         double subtraction = num1 - num2;
         double product = num1 * num2;
-        double divide = num1 / num2;
+        double quotient = num1 / num2;
 
         JOptionPane.showMessageDialog(null,"The sum of two numbers: " + sum);
         JOptionPane.showMessageDialog(null,"The subtraction of two numbers: " + subtraction);
         JOptionPane.showMessageDialog(null,"The product of two numbers: " + product);
-        JOptionPane.showMessageDialog(null,"The divide of two numbers: " + divide);
+        JOptionPane.showMessageDialog(null,"The divide of two numbers: " + quotient);
 
         System.exit(0);
     }
