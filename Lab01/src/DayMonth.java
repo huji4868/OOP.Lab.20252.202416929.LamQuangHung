@@ -1,11 +1,11 @@
+// 6.4
 import java.util.Scanner;
-public class DaysOfMonth {
+public class DayMonth {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int month = -1;
         int year = -1;
 
-        // Vòng lặp chính: Yêu cầu nhập đến khi cả tháng và năm đều hợp lệ
         while (true) {
             System.out.print("Enter month: ");
             String mInput = sc.nextLine().trim().toLowerCase();
@@ -13,7 +13,6 @@ public class DaysOfMonth {
             System.out.print("Enter year: ");
             String yInput = sc.nextLine().trim();
 
-            // 1. Kiểm tra năm (phải là số và không âm)
             try {
                 year = Integer.parseInt(yInput);
                 if (year < 0) {
@@ -58,7 +57,7 @@ public class DaysOfMonth {
             days = 31;
         }
 
-        System.out.println("Result: Month " + month + " in Year " + year + " has " + days + " days.");
+        System.out.println("Month " + month + " in Year " + year + " has " + days + " days.");
 
         sc.close();
     }

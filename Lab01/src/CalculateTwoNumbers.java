@@ -21,3 +21,4 @@ public class CalculateTwoNumbers{
         System.exit(0);
     }
 }
+
