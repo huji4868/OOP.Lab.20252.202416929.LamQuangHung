@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2a9f276f-47ba-4dbe-8541-e66b96c57b4b" name="Changes" comment="oopb1">
-      <change afterPath="$PROJECT_DIR$/Lab01/src/ChoosingOption.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab01/src/DayMonth.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab01/src/InputFromKeyboard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab01/src/Matrixs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab01/src/Sort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lab01/src/Triangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lab01/src/CalculateTwoNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab01/src/CalculateTwoNumbers.java" afterDir="false" />
-    </list>
+    <list default="true" id="2a9f276f-47ba-4dbe-8541-e66b96c57b4b" name="Changes" comment="oopb1" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -139,7 +130,7 @@
       <workItem from="1774397125667" duration="888000" />
       <workItem from="1774398285541" duration="1078000" />
       <workItem from="1774399590367" duration="697000" />
-      <workItem from="1774530160034" duration="10100000" />
+      <workItem from="1774530160034" duration="10950000" />
     </task>
     <task id="LOCAL-00001" summary="oopb1">
       <option name="closed" value="true" />
