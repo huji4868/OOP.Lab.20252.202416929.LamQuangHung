@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2a9f276f-47ba-4dbe-8541-e66b96c57b4b" name="Changes" comment="oopb1" />
+    <list default="true" id="2a9f276f-47ba-4dbe-8541-e66b96c57b4b" name="Changes" comment="oopb1">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab01/src/ChoosingOption.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lab01/src/ChoosingOption.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -56,46 +59,46 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.CalculateTwoNumbers.executor": "Run",
-    "Application.ChoosingOption.executor": "Run",
-    "Application.DayMonth.executor": "Run",
-    "Application.DaysOfMonth.executor": "Run",
-    "Application.FirstDialog.executor": "Run",
-    "Application.HelloNameDialog.executor": "Run",
-    "Application.HelloWorld.executor": "Run",
-    "Application.InputFromKeyboard.executor": "Run",
-    "Application.Matrics.executor": "Run",
-    "Application.Matrixs.executor": "Run",
-    "Application.ShowTwoNumbers.executor": "Run",
-    "Application.Sort.executor": "Run",
-    "Application.Triangle.executor": "Run",
-    "Application.equation.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.MCP Project settings loaded": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "junie.onboarding.icon.badge.shown": "true",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "C:/Users/Admin/Desktop/OOPLab/Lab02/src/Main.java",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "to.speed.mode.migration.done": "true",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.CalculateTwoNumbers.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ChoosingOption.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DayMonth.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DaysOfMonth.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FirstDialog.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HelloNameDialog.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HelloWorld.executor&quot;: &quot;Run&quot;,
+    &quot;Application.InputFromKeyboard.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Matrics.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Matrixs.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ShowTwoNumbers.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Sort.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Triangle.executor&quot;: &quot;Run&quot;,
+    &quot;Application.equation.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;release/Lab01&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/Admin/Desktop/OOPLab/Lab02/src/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="CalculateTwoNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CalculateTwoNumbers" />
@@ -131,6 +134,12 @@
       <workItem from="1774398285541" duration="1078000" />
       <workItem from="1774399590367" duration="697000" />
       <workItem from="1774530160034" duration="10950000" />
+      <workItem from="1774543605184" duration="491000" />
+      <workItem from="1774569672316" duration="2059000" />
+      <workItem from="1774576610137" duration="14000" />
+      <workItem from="1774598873050" duration="1876000" />
+      <workItem from="1774602465265" duration="719000" />
+      <workItem from="1774604193040" duration="48000" />
     </task>
     <task id="LOCAL-00001" summary="oopb1">
       <option name="closed" value="true" />

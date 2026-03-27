@@ -2,7 +2,7 @@
 import javax.swing.JOptionPane;
 public class equation {
     public static void main(String [] args){
-        String Degree = JOptionPane.showInputDialog(null,"Please input the degree of equation: ","Input the degree of equation",JOptionPane.INFORMATION_MESSAGE);
+        String Degree = JOptionPane.showInputDialog(null,"Please input the degree of equation:\n1. First-degree\n2. Second-degree","Input the degree of equation",JOptionPane.INFORMATION_MESSAGE);
 
         int DegreeChosen = Integer.parseInt(Degree);
 
@@ -32,7 +32,7 @@ public class equation {
                 }
             }
             else if (TypeChosen == 2){
-                JOptionPane.showMessageDialog(null,"Type: a11*x + a12*y = b1\na21*x + a22*y = b2");
+                JOptionPane.showMessageDialog(null,"a11*x + a12*y = b1\na21*x + a22*y = b2");
 
                 double a11 = Double.parseDouble(JOptionPane.showInputDialog("Enter a11: "));
                 double a12 = Double.parseDouble(JOptionPane.showInputDialog("Enter a12: "));
