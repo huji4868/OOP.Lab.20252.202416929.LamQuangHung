@@ -12,7 +12,7 @@ public class Aims {
 
         System.out.println("Total Cost is: " +  anOrder.totalCost());
 
-        anOrder.removeDigitalVideoDisc(dvd2);
+        anOrder.removeDigitalVideoDisc( dvd2);
 
         System.out.println("Total cost after removing is: " + anOrder.totalCost());
 
