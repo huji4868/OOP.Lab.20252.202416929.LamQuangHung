@@ -1,0 +1,10 @@
+Câu hỏi:
+Java không cho phép nạp chồng phương thức nếu các phương thức có cùng chữ ký (signature). Vì cả title và category đều có kiểu dữ liệu String nên hai constructor này có cùng chữ ký là DigitalVideoDisc(String). Do đó khi biên dịch sẽ bị lỗi vì Java không phân biệt được constructor nào.
+Câu 15: Is JAVA a Pass by Value or a Pass by Reference programming language?
+Java là Pass by Value. Khi truyền một đối tượng vào phương thức, ta không truyền chính đối tượng mà là truyền bản sao của địa chỉ ô nhớ (reference).
+Question:
+• After the call of swap(jungleDVD, cinderellaDVD) why does the title of these two objects still remain?
+Ans: Tiêu đề của chúng không thay đổi vì swap chỉ thay đổi giá trị của 2 biến cục bộ là bản sao của địa chỉ ô nhớ, không tác động đến các biến tham chiếu gốc jungleDVD và cinderellaDVD ở main.
+• After the call of changeTitle(jungleDVD, cinderellaDVD.getTitle()) why is the title of the JungleDVD changed?
+Ans: Biến dvd trong hàm là một bản sao, nhưng vẫn trỏ đến cùng một địa chỉ ô nhớ với đối tượng gốc. Lệnh dvd.setTitle(title) truy cập vào địa chỉ đó và sửa nội dung bên trong.
+Còn lệnh dvd = new DigitalVideoDisc(oldTitle) chỉ làm biến dvd trỏ sang đối tượng mới, không ảnh hưởng đến đối tượng ban đầu.
