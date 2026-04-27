@@ -1,7 +1,7 @@
 package AimsProject.src.hust.soict.hedspi.aims;
 
-import AimsProject.src.hust.soict.hedspi.cart.Cart;
-import AimsProject.src.hust.soict.hedspi.digitalvideodisc.DigitalVideoDisc;
+import AimsProject.src.hust.soict.hedspi.aims.cart.Cart;
+import AimsProject.src.hust.soict.hedspi.aims.disc.DigitalVideoDisc;
 
 public class Aims {
 
