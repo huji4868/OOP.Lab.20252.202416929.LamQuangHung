@@ -3,14 +3,6 @@ package AimsProject.src.hust.soict.hedspi.aims.media;
 public class DigitalVideoDisc extends Disc implements Playable {
     private static int nbDigitalVideoDiscs = 0;
 
-    public String getDirector() {
-        return director;
-    }
-
-    public int getLength() {
-        return length;
-    }
-
     private static int nextId(){
         nbDigitalVideoDiscs++;
         return nbDigitalVideoDiscs;
