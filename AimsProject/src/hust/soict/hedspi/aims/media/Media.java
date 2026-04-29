@@ -10,7 +10,7 @@ public abstract class Media {
         this.id = id;
         this.title = title;
         this.category = category;
-        this.cost = cost;
+        this.cost =  cost;
     }
 
     public int getId() {
