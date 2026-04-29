@@ -1,0 +1,22 @@
+1. What are the advantages of Polymorphism? 
+Đa hình mang lại sự linh hoạt và khả năng mở rộng mạnh mẽ cho phần mềm. Các ưu điểm chính bao gồm:
+- Tính linh hoạt : Cho phép bạn viết code xử lý các đối tượng dựa trên kiểu cha (supertype) thay vì phải quan tâm đến kiểu cụ thể (subtype). Ví dụ: Trong dự án AIMS, bạn có thể xử lý một danh sách List<Media> mà không cần biết đó là sách, đĩa CD hay DVD cho đến khi phương thức play() hoặc toString() được gọi.  
+- Khả năng mở rộng : Bạn có thể dễ dàng thêm các loại Media mới (ví dụ: Magazine) vào hệ thống mà không cần thay đổi code hiện có trong các lớp như Cart hoặc Store. Code của bạn "đóng" với việc sửa đổi nhưng "mở" với việc mở rộng.
+- Tính bảo trì : Giúp giảm thiểu sự trùng lặp code (DRY - Don't Repeat Yourself). Thay vì viết cad phương thức riêng biệt như addDigitalVideoDisc(), addBook(), addCompactDisc(), bạn chỉ cần một phương thức addMedia() duy nhất.  
+
+2. How is Inheritance useful to achieve Polymorphism in Java? 
+Kế thừa là nền tảng để hiện thực hóa tính đa hình kiểu subtype (Subtype Polymorphism):
+Thiết lập mối quan hệ "Is-a": 
+- Kế thừa cho phép một lớp con (Book, DigitalVideoDisc) được coi là một phiên bản của lớp cha (Media). Nhờ đó, bất cứ nơi nào chương trình mong đợi một đối tượng Media, bạn đều có thể truyền vào một đối tượng Book hoặc CD mà không gây ra lỗi.  
+- Ghi đè phương thức : Kế thừa cho phép lớp con định nghĩa lại hành vi của lớp cha. Java sẽ sử dụng cơ chế "dynamic binding" (gắn kết động) tại thời điểm thực thi để xác định xem phương thức của đối tượng cụ thể nào được gọi.
+- Ví dụ trong bài: Khi bạn gọi m.toString() cho một danh sách List<Media>, Java sẽ tự động gọi phương thức toString() được định nghĩa trong Book nếu đó là sách, hoặc trong CompactDisc nếu đó là đĩa CD.  
+
+3. What are the differences between Polymorphism and Inheritance in Java? 
+Kế thừa
+- Bản chất: Đây là một cơ chế về cấu trúc dùng để thiết lập phân cấp các lớp trong chương trình.  
+- Mục đích: Được sử dụng chủ yếu để tái sử dụng mã nguồn và xây dựng mối quan hệ "IS-A" (ví dụ: một chiếc xe tải là một phương tiện giao thông) giữa các lớp.  
+- Cách hoạt động: Cho phép một lớp con kế thừa toàn bộ các thuộc tính và phương thức từ lớp cha, tạo tiền đề cho việc tổ chức mã nguồn theo phân cấp.  
+Đa hình
+- Bản chất: Đây là một cơ chế về hành vi cho phép một thực thể có thể biểu hiện dưới nhiều dạng thái khác nhau.  
+- Mục đích: Được sử dụng để thực thi các hành vi khác nhau thông qua một giao diện chung, giúp chương trình linh hoạt hơn khi xử lý các đối tượng.  
+- Cách hoạt động: Cho phép một chương trình xử lý các đối tượng thuộc các kiểu dữ liệu khác nhau (dựa trên lớp cha chung) thông qua cùng một phương thức, mà không cần biết chi tiết cụ thể của từng loại đối tượng đó tại thời điểm biên dịch. 
