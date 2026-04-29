@@ -10,7 +10,7 @@ public class Cart {
                 itemsOrdered.add(media);
                 System.out.println("The media " + media.getTitle() + " has been added");
             } else {
-                System.out.println("The media " + media.getTitle() + " is already in the cart");
+                System.out.println("The media "  + media.getTitle() + " is already in the cart");
             }
         }
         else {
