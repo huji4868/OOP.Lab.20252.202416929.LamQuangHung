@@ -27,7 +27,7 @@ public class MainAdminTest {
                                 "Fiona Apple");
                 CompactDisc cd2 = new CompactDisc(5, "Future Nostalgia", "Pop", 9.60f, "Unknown", "Dua Lipa");
 
-                store.addMedia(dvd1);
+                   store.addMedia(dvd1);
                 store.addMedia(dvd2);
                 store.addMedia(dvd3);
                 store.addMedia(dvd4);
