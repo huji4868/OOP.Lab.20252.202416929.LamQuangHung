@@ -1,4 +1,4 @@
-package AimsProject.src.hust.soict.hedspi.aims.media;
+package hust.soict.hedspi.aims.media;
 import java.util.Comparator;
 
 public abstract class Media {
@@ -22,6 +22,10 @@ public abstract class Media {
 
     public String getTitle(){
         return title;
+    }
+
+    public void setTitle(String title) {
+        this.title = title;
     }
 
     public String getCategory(){

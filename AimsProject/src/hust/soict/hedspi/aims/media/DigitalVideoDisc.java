@@ -1,4 +1,4 @@
-package AimsProject.src.hust.soict.hedspi.aims.media;
+package hust.soict.hedspi.aims.media;
 
 public class DigitalVideoDisc extends Disc implements Playable {
     private static int nbDigitalVideoDiscs = 0;

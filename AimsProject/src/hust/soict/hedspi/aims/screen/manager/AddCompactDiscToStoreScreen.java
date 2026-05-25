@@ -1,10 +1,10 @@
-package AimsProject.src.hust.soict.hedspi.aims.screen.manager;
+package hust.soict.hedspi.aims.screen.manager;
 
 import javax.swing.*;
 import java.awt.*;
-import AimsProject.src.hust.soict.hedspi.aims.store.Store;
-import AimsProject.src.hust.soict.hedspi.aims.media.CompactDisc;
-import AimsProject.src.hust.soict.hedspi.aims.media.Track;
+import hust.soict.hedspi.aims.store.Store;
+import hust.soict.hedspi.aims.media.CompactDisc;
+import hust.soict.hedspi.aims.media.Track;
 
 public class AddCompactDiscToStoreScreen extends AddItemToStoreScreen {
     

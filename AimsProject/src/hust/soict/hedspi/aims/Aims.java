@@ -1,11 +1,11 @@
-package AimsProject.src.hust.soict.hedspi.aims;
+package hust.soict.hedspi.aims;
 
 import java.util.Scanner;
-import AimsProject.src.hust.soict.hedspi.aims.cart.Cart;
-import AimsProject.src.hust.soict.hedspi.aims.store.Store;
-import AimsProject.src.hust.soict.hedspi.aims.media.Media;
-import AimsProject.src.hust.soict.hedspi.aims.media.Playable;
-import AimsProject.src.hust.soict.hedspi.aims.media.DigitalVideoDisc;
+import hust.soict.hedspi.aims.cart.Cart;
+import hust.soict.hedspi.aims.store.Store;
+import hust.soict.hedspi.aims.media.Media;
+import hust.soict.hedspi.aims.media.Playable;
+import hust.soict.hedspi.aims.media.DigitalVideoDisc;
 // assuming CompactDisc and Track are there if needed to be added to store
 
 public class Aims {

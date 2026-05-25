@@ -1,7 +1,7 @@
-package AimsProject.src.hust.soict.hedspi.aims.store;
+package hust.soict.hedspi.aims.store;
 
 import java.util.ArrayList;
-import AimsProject.src.hust.soict.hedspi.aims.media.Media;
+import hust.soict.hedspi.aims.media.Media;
 
 public class Store {
     private ArrayList<Media> itemsInStore = new ArrayList<Media>();

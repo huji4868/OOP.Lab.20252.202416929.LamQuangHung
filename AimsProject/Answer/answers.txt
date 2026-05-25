@@ -1,0 +1,52 @@
+1.3 Compare Swing and AWT elements
+
+1. So sánh top-level container trong Swing và AWT
+
+Trong AWT, top-level container là Frame.
+Ví dụ: class AWTAccumulator extends Frame.
+
+Trong Swing, top-level container là JFrame.
+Ví dụ: class SwingAccumulator extends JFrame.
+
+Điểm khác nhau là trong Swing, các component như JLabel, JButton, JTextField thường được thêm vào content pane bằng getContentPane(), chứ không thêm trực tiếp vào JFrame.
+
+
+2. So sánh tên các component trong AWT và Swing
+
+Tên component trong Swing thường giống AWT nhưng có thêm chữ J ở đầu.
+
+Ví dụ:
+
+AWT        Swing
+Frame      JFrame
+Label      JLabel
+Button     JButton
+TextField  JTextField
+TextArea   JTextArea
+Panel      JPanel
+Dialog     JDialog
+Applet     JApplet
+
+Như vậy, AWT dùng Label, Button, TextField; còn Swing dùng JLabel, JButton, JTextField.
+
+
+3. So sánh cách xử lý sự kiện trong Swing và AWT
+
+Cách xử lý sự kiện trong Swing và AWT khá giống nhau.
+
+Cả hai đều dùng listener để bắt sự kiện. Ví dụ khi người dùng nhập số và nhấn Enter trong TextField, chương trình sẽ dùng ActionListener để xử lý.
+
+Trong cả AWTAccumulator và SwingAccumulator, ta đều có thể tạo một inner class implements ActionListener và viết code trong hàm actionPerformed().
+
+Vì vậy, phần xử lý sự kiện của AWT và Swing gần như giống nhau.
+
+
+4. So sánh giao diện hiển thị của AWT và Swing
+
+Giao diện của AWT và Swing có thể khác nhau.
+
+AWT phụ thuộc nhiều vào hệ điều hành, nên giao diện có thể thay đổi tùy máy.
+
+Swing được vẽ bởi Java nên giao diện thường ổn định hơn trên nhiều hệ điều hành. Swing cũng có nhiều component hơn và dễ tùy chỉnh giao diện hơn.
+
+Kết luận: Swing hiện đại, linh hoạt và thường được dùng nhiều hơn AWT.

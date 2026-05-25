@@ -1,6 +1,6 @@
-package AimsProject.src.hust.soict.hedspi.aims.cart;
+package hust.soict.hedspi.aims.cart;
 import java.util.ArrayList;
-import AimsProject.src.hust.soict.hedspi.aims.media.Media;
+import hust.soict.hedspi.aims.media.Media;
 public class Cart {
     public static final int MAX_NUMBERS_ORDERED = 20;
     private ArrayList<Media> itemsOrdered = new ArrayList<Media>();

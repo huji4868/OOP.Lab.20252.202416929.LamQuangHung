@@ -1,16 +1,13 @@
-package AimsProject.src.hust.soict.hedspi.aims.screen.manager;
+package hust.soict.hedspi.aims.screen.manager;
 
 import javax.swing.*;
 import java.awt.*;
 import java.util.ArrayList;
 
-import AimsProject.src.hust.soict.hedspi.aims.media.Media;
-import AimsProject.src.hust.soict.hedspi.aims.media.MediaStore;
-import AimsProject.src.hust.soict.hedspi.aims.media.DigitalVideoDisc;
-import AimsProject.src.hust.soict.hedspi.aims.media.Book;
-import AimsProject.src.hust.soict.hedspi.aims.media.Disc;
+import hust.soict.hedspi.aims.media.Media;
+import hust.soict.hedspi.aims.media.MediaStore;
 
-import AimsProject.src.hust.soict.hedspi.aims.store.Store;
+import hust.soict.hedspi.aims.store.Store;
 
 public class StoreManagerScreen extends JFrame {
     private Store store;

@@ -1,8 +1,8 @@
-package AimsProject.src.hust.soict.hedspi.aims.screen.manager;
+package hust.soict.hedspi.aims.screen.manager;
 
 import javax.swing.*;
 import java.awt.*;
-import AimsProject.src.hust.soict.hedspi.aims.store.Store;
+import hust.soict.hedspi.aims.store.Store;
 
 public abstract class AddItemToStoreScreen extends JFrame {
     protected Store store;
